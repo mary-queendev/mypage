@@ -68,11 +68,16 @@ h2 {
   gap: 10px;
 }
 .mymoniapp {
-  max-width: 200px;
+  max-width: 300px;
+  border-radius: 12px;
+  max-height: 400px;
+}
+.myweatherapp {
+  max-width: 300px;
   border-radius: 12px;
   max-height: 300px;
 }
-.mycerts{
+.mycerts {
   max-width: 500px;
   border-radius: 12px;
   /* max-height: 400px; */
@@ -99,9 +104,8 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px
+  gap: 20px;
 }
-.linkItems{
-    text-align: center;
+.linkItems {
+  text-align: center;
 }
-
