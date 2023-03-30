@@ -1,0 +1,107 @@
+body {
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+h1 {
+  text-align: center;
+  background-color: blueviolet;
+  border-radius: 8px;
+  color: white;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  /* flex-flow: column-reverse; */
+  gap: 10%;
+  margin: 10px auto;
+  max-width: 80%;
+}
+header p {
+  font-family: cursive;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 34px;
+}
+header img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+h2 {
+  font-family: cursive;
+  text-align: center;
+  margin: 30px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
+.col {
+  width: 100px;
+  height: 100px;
+  border: 3px solid;
+  font-size: 20px;
+  font-family: cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+.mymoni {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 90%;
+  gap: 5%;
+  text-align: justify;
+  /* flex-wrap: wrap; */
+}
+.projectImages {
+  /* flex-wrap: wrap; */
+  display: flex;
+  gap: 10px;
+}
+.mymoniapp {
+  max-width: 200px;
+  border-radius: 12px;
+  max-height: 300px;
+}
+.mycerts{
+  max-width: 500px;
+  border-radius: 12px;
+  /* max-height: 400px; */
+}
+.weatherapp {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 90%;
+  gap: 5%;
+  text-align: justify;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 18px;
+}
+.icon {
+  width: 50px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px
+}
+.linkItems{
+    text-align: center;
+}
+
